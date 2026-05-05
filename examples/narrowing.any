@@ -1,0 +1,5 @@
+let value: string | null = "hi";
+
+if (value != null) {
+  const stillString: string = value;
+}

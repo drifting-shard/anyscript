@@ -1,0 +1,15 @@
+{
+  "name": "anyscript",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny TypeScript-like compiler front-end for learning parsing, binding, and type checking.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "run": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}

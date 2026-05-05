@@ -1,0 +1,7 @@
+const config = {
+  mode: "dev",
+  port: 3000,
+} satisfies {
+  mode: string,
+  port: number
+};
